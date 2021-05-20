@@ -35,7 +35,7 @@ void println_float_fields(double d)
   printf(" <-----n");
 }
 
-int main()
+int main(void)
 {
   println_float_fields(0);
   println_float_fields(5);
