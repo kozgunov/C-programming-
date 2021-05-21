@@ -26,6 +26,7 @@ void write()
   FILE *fo = fopen("1.bin", "wb");
   fwrite(ps, sizeof(struct Person), 2, fo);
   fwrite(ps, sizeof(ps), 1, fo);
+  
   fclose(fo);
 }
 
